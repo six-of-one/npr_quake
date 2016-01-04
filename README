@@ -1,0 +1,27 @@
+
+                NPRQuake for Linux
+	Jeremy Green (coolguywithgun@yahoo.com)
+
+  This is a port of NPRQuake to Linux.  I have only tried it on my
+machine.  It requires a GLX-compatible graphics card.  To compile,
+simply run make from the NPRQuake directory.  Binaries will be placed
+in the build subdirectory.  Simply copy (or link) the pak*.pak files
+from your id1 subdirectory of your quake install into the build/id1
+subdirectory, then run the quake shell script from the build
+directory.  Once you have it running, you can type "r_load <renderer>"
+from the console, where <renderer> is one of dr_default, sketch,
+bprint, brush, and ainpr.  This release adds the ainpr renderer, which
+has a cartoon style, and was created by Adrian Ilie (link to his site
+is below).  Also new to this release is that it is no longer necessary
+to add the ".so" extension to the renderer names.
+
+NPRQuake was orignally made by the people at
+	 http://www.cs.wisc.edu/graphics/Gallery/NPRQuake/
+and is a modification of Quake, by Id Software,
+	 http://www.idsoftware.com/
+Mouse support and other fixes are from MFCN's GLQuake:
+         http://mfcn.ilo.de/glxquake/
+Cartoon shading renderer (ainpr) by Adrian Ilie:
+         http://www.cs.unc.edu/~adyilie/comp238/Final/Final.htm
+This is released under the GNU General Public License, a copy of which
+is in the file COPYING.

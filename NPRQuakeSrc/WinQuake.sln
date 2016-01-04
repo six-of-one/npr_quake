@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "dr_default", "dr_default\dr_default.dsp", "{F0BA6113-FDB9-45B6-A362-9AF211B410DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gas2masm", "gas2masm\gas2masm.vcxproj", "{33946532-6231-4BA5-80F2-24534DD9007D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winquake", "WinQuake.vcxproj", "{24D239C0-709C-41DD-A403-49B4079FE9FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		GL Debug|Win32 = GL Debug|Win32
+		GL Release|Win32 = GL Release|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33946532-6231-4BA5-80F2-24534DD9007D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.Debug|Win32.Build.0 = Debug|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.GL Debug|Win32.ActiveCfg = Debug|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.GL Debug|Win32.Build.0 = Debug|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.GL Release|Win32.ActiveCfg = Release|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.GL Release|Win32.Build.0 = Release|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.Release|Win32.ActiveCfg = Release|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.Release|Win32.Build.0 = Release|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.Template|Win32.ActiveCfg = Release|Win32
+		{33946532-6231-4BA5-80F2-24534DD9007D}.Template|Win32.Build.0 = Release|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.Debug|Win32.Build.0 = Debug|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.GL Debug|Win32.ActiveCfg = GL Debug|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.GL Debug|Win32.Build.0 = GL Debug|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.GL Release|Win32.ActiveCfg = GL Release|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.GL Release|Win32.Build.0 = GL Release|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.Release|Win32.ActiveCfg = Release|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.Release|Win32.Build.0 = Release|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.Template|Win32.ActiveCfg = Template|Win32
+		{24D239C0-709C-41DD-A403-49B4079FE9FC}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

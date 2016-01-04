@@ -1,0 +1,173 @@
+﻿Build started 1/4/2016 1:25:04 AM.
+     1>Project "\\TANELORN\quake\qlnx\engine-source\NPRQuake\NPRQuakeSrc\WinQuake.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         '\\TANELORN\quake\qlnx\engine-source\NPRQuake\NPRQuakeSrc'
+         CMD.EXE was started with the above path as the current directory.
+         UNC paths are not supported.  Defaulting to Windows directory.
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\d_draw.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\d_draw.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\d_draw.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\d_draw16.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\d_draw16.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\d_draw16.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\d_parta.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\d_parta.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         mycoolbuild
+         Could Not Find C:\Windows\Debug\d_parta.spp
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\d_polysa.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\d_polysa.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\d_polysa.spp
+         Access is denied.
+         The system cannot find the file specified.
+         mycoolbuild
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: .\Debug\d_scana.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\d_scana.asm
+         mycoolbuild
+         Could Not Find C:\Windows\Debug\d_scana.spp
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\d_spr8.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\d_spr8.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\d_spr8.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\d_varsa.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\d_varsa.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\d_varsa.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\math.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\math.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\math.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: .\Debug\r_aclipa.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\r_aclipa.asm
+         Could Not Find C:\Windows\Debug\r_aclipa.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\r_aliasa.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\r_aliasa.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\r_aliasa.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\r_drawa.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\r_drawa.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\r_drawa.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: .\Debug\r_edgea.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\r_edgea.asm
+         Could Not Find C:\Windows\Debug\r_edgea.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\r_varsa.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\r_varsa.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\r_varsa.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\snd_mixa.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\snd_mixa.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\snd_mixa.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\surf16.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\surf16.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\surf16.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\surf8.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\surf8.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\surf8.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+          Assembling: .\Debug\sys_wina.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\sys_wina.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Could Not Find C:\Windows\Debug\sys_wina.spp
+         mycoolbuild
+         Access is denied.
+         The system cannot find the file specified.
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: .\Debug\worlda.asm
+     1>MASM : fatal error A1000: cannot open file : .\Debug\worlda.asm
+         Could Not Find C:\Windows\Debug\worlda.spp
+     1>Done Building Project "\\TANELORN\quake\qlnx\engine-source\NPRQuake\NPRQuakeSrc\WinQuake.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.55

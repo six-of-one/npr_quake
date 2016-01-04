@@ -1,0 +1,22 @@
+July 24, 2003:
+  -it is no longer necessary to type ".so" at the end of the renderer
+   names
+  -the ainpr renderer (cartoon style rendering), created by Adrian Ilie
+   (http://www.cs.unc.edu/~adyilie/comp238/Final/Final.htm) has been added
+February 11, 2002:
+  -minor Makefile fixes, ensuring that the optimization changes apply
+   to all files
+  -mouse support fixed, thanks to changes borrowed from MFCN's GLQuake
+   (http://mfcn.ilo.de/glxquake/)
+  -quake shell script changed to pass options to the glquake.glx
+   executable
+  -CHANGELOG added
+February 8, 2002:
+  -conversion of all files in the dynamic_r directory to UNIX format
+   files
+  -removal of -mcpu=i586 -march=i586 optimizations and change from -O6
+   to -O3
+February 6, 2002:
+  -fix for "Error: memory overwrite in Sys_Printf"
+January 29, 2002:
+  -initial release
