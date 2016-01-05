@@ -18,7 +18,7 @@ endif
 ifneq (,$(findstring alpha,$(shell uname -m)))
 ARCH=axp
 else
-ARCH=i386
+ARCH=x86-64
 endif
 NOARCH=noarch
 
