@@ -221,7 +221,9 @@ void	R_ZDrawSubmodelPolys (model_t *clmodel);
 // Alias models
 //=========================================================
 
-#define MAXALIASVERTS		2000	// TODO: tune this
+//#define MAXALIASVERTS		2000	// TODO: tune this
+#define MAXALIASVERTS		6000	// Cataboligne - 6.12.6 - adjusted for gremlin
+
 #define ALIAS_Z_CLIP_PLANE	5
 
 extern int				numverts;

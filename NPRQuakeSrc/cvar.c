@@ -109,7 +109,7 @@ void Cvar_Set (char *var_name, char *value)
 	var = Cvar_FindVar (var_name);
 	if (!var)
 	{	// there is an error in C code if this happens
-		Con_Printf ("Cvar_Set: variable %s not found\n", var_name);
+//		Con_Printf ("Cvar_Set: variable %s not found\n", var_name); // Cataboligne - TEST FIX
 		return;
 	}
 

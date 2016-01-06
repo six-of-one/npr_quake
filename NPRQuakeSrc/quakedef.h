@@ -27,7 +27,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #define	GLQUAKE_VERSION		1.00
 #define	D3DQUAKE_VERSION	0.01
 #define	WINQUAKE_VERSION	0.996
-#define	LINUX_VERSION		1.31   // cataboligne mod 5.21.5
+//#define	LINUX_VERSION		1.31 // cataboligne mod 5.21.5
+//#define	LINUX_VERSION		1.32 // cataboligne mod 4.21.6
+#define	LINUX_VERSION		1.33 // cataboligne mod 6.22.10
 #define	X11_VERSION			1.10
 
 //define	PARANOID			// speed sapping error checking
@@ -104,12 +106,13 @@ void	VID_UnlockBuffer (void);
 //
 // per-level limits
 //
-// cataboligne mods 5.21.5
-//
-#define	MAX_EDICTS		3000
+//#define	MAX_EDICTS		600			// FIXME: ouch! ouch! ouch!
+#define	MAX_EDICTS		3000			// cataboligne mod 5.21.5
 #define	MAX_LIGHTSTYLES	64
-#define	MAX_MODELS		512			// these are sent over the net as bytes
-#define	MAX_SOUNDS		512			// so they cannot be blindly increased
+//#define	MAX_MODELS		256			// these are sent over the net as bytes
+#define	MAX_MODELS		512			// cataboligne mod 5.21.5
+//#define	MAX_SOUNDS		256			// so they cannot be blindly increased
+#define	MAX_SOUNDS		512			// cataboligne mod 5.21.5
 
 #define	SAVEGAME_COMMENT_LENGTH	39
 

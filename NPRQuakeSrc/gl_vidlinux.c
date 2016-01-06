@@ -510,10 +510,11 @@ int findres(int *width, int *height)
 			*height = resolutions[i][1];
 			return resolutions[i][2];
 		}
-        
-	*width = 640;
-	*height = 480;
-	return GR_RESOLUTION_640x480;
+
+// Cataboligne - 016.1.6 - lg screen upd
+	*width = 1280;
+	*height = 1024;
+	return GR_RESOLUTION_1280x1024;
 }
 
 qboolean VID_Is8bit(void)
@@ -610,7 +611,7 @@ void VID_Init(unsigned char *palette)
 	int i;
 	GLint attribs[32];
 	char	gldir[MAX_OSPATH];
-	int width = 640, height = 480;
+	int width = 1280, height = 1024;
 
 	Init_KBD();
 

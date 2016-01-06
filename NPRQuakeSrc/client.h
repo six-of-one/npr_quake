@@ -83,7 +83,8 @@ typedef struct
 } dlight_t;
 
 
-#define	MAX_BEAMS	24
+//#define       MAX_BEAMS       24
+#define	MAX_BEAMS	128 // Cataboligne 5.30.6
 typedef struct
 {
 	int		entity;
@@ -269,8 +270,10 @@ extern	cvar_t	m_forward;
 extern	cvar_t	m_side;
 
 
-#define	MAX_TEMP_ENTITIES	64			// lightning bolts, etc
-#define	MAX_STATIC_ENTITIES	128			// torches, etc
+//#define	MAX_TEMP_ENTITIES	64			// lightning bolts, etc
+//#define	MAX_STATIC_ENTITIES	128			// torches, etc
+#define	MAX_TEMP_ENTITIES		1024		// Cataboligne 5.31.6
+#define	MAX_STATIC_ENTITIES	512			// Cataboligne 5.31.6
 
 extern	client_state_t	cl;
 

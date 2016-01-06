@@ -86,7 +86,8 @@ void Sys_Printf (char *fmt, ...)
 void Sys_Printf (char *fmt, ...)
 {
 	va_list		argptr;
-	char		text[8192]; // cataboligne fix 10.13.14
+	char		text[16384]; // Cataboligne - 5.14.10 - new kernel 2.6.26-21 is causing the error below for all glq!
+//	char		text[8192]; // cataboligne fix 10.13.14
 //	char		text[4096]; // cataboligne fix 5.21.5
 //	char		text[2048];
 	unsigned char		*p;

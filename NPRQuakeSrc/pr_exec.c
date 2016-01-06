@@ -379,7 +379,7 @@ void PR_ExecuteProgram (func_t fnum)
 	
 	f = &pr_functions[fnum];
 
-	runaway = 100000;
+	runaway = 5000000; // Cataboligne - 5.12.10 - expand from 100000, was failing on bot code
 	pr_trace = false;
 
 // make a stack frame
