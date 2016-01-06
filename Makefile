@@ -4,7 +4,7 @@ DEBUG_CFLAGS=-Dstricmp=strcasecmp -g
 
 CFLAGS=$(RELEASE_CFLAGS)
 
-DR_FLAGS=-DGLQUAKE -D_DLL_BUILD -shared
+DR_FLAGS=-DGLQUAKE -D_DLL_BUILD -shared -fPIC
 
 renderers=build/dr_default.so build/brush.so build/bprint.so build/sketch.so
 

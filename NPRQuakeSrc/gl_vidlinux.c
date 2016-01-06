@@ -307,8 +307,8 @@ void GL_Init (void)
 
 	gl_version = glGetString (GL_VERSION);
 	Con_Printf ("GL_VERSION: %s\n", gl_version);
-	gl_extensions = glGetString (GL_EXTENSIONS);
-	Con_Printf ("GL_EXTENSIONS: %s\n", gl_extensions);
+//	gl_extensions = glGetString (GL_EXTENSIONS);
+	Con_Printf ("GL_EXTENSIONS: unlisted, refer to video card data\n");
 
 //	Con_Printf ("%s %s\n", gl_renderer, gl_version);
 
