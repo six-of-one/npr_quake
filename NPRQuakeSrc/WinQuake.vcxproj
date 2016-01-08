@@ -252,7 +252,15 @@
       <SubSystem>Windows</SubSystem>
       <OutputFile>.\Release\WinQuake.exe</OutputFile>
       <AdditionalDependencies>.\dxsdk\sdk\lib\dxguid.lib;.\scitech\lib\win32\vc\mgllt.lib;winmm.lib;wsock32.lib;opengl32.lib;glu32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cd_win.c" />

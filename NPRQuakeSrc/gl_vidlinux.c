@@ -528,7 +528,7 @@ void VID_Init8bitPalette(void)
 	int i;
 	void *prjobj;
 
-	if (COM_CheckParm("-no8bit"))
+//	if (!COM_CheckParm("-no8bit")) // from updated 012.9.4 - baker
 		return;
 
 	if ((prjobj = dlopen(NULL, RTLD_LAZY)) == NULL) {
