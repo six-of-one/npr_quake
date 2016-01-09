@@ -202,7 +202,7 @@ void Sys_HighFPPrecision (void)
 {
 }
 
-# Cataboligne - 8.22.11 - comment stuff causing multiple def errors
+//# Cataboligne - 8.22.11 - comment stuff causing multiple def errors - elsewhere, this is main
 void Sys_LowFPPrecision (void)
 {
 }

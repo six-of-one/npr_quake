@@ -2,6 +2,7 @@
 # Quake Makefile for Linux 2.0
 #
 # Aug '98 by Zoid <zoid@idsoftware.com>
+# Modified by Cataboligne quakec#cataboligne#org									(replace #'s with @ and then . )
 #
 # ELF only
 #
