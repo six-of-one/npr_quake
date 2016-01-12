@@ -369,6 +369,7 @@ Draw_Init
 */
 void Draw_Init (void)
 {
+	static char init_gl_max_size[8];
 	int		i;
 	qpic_t	*cb;
 	byte	*dest, *src;
@@ -383,12 +384,16 @@ void Draw_Init (void)
 	Cvar_RegisterVariable (&gl_nobind);
 	Cvar_RegisterVariable (&gl_max_size);
 	Cvar_RegisterVariable (&gl_picmip);
-
+#if 0
 	// 3dfx can only handle 256 wide textures
 	if (!Q_strncasecmp ((char *)gl_renderer, "3dfx",4) ||
 		strstr((char *)gl_renderer, "Glide"))
 		Cvar_Set ("gl_max_size", "256");
-
+#else
+	glGetIntegerv(GL_MAX_TEXTURE_SIZE, &i);
+	sprintf(init_gl_max_size, "%i", i);
+	Cvar_Set ("gl_max_size", init_gl_max_size);
+#endif
 	Cmd_AddCommand ("gl_texturemode", &Draw_TextureMode_f);
 
 	// load the console background and the charset

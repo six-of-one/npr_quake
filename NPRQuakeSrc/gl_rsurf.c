@@ -283,8 +283,7 @@ void GL_DisableMultitexture(void)
 {
 	if (mtexenabled) {
 		glDisable(GL_TEXTURE_2D);
-		GL_SelectTexture(TEXTURE0_SGIS, gl_mtexable, qglSelectTextureSGIS,
-            currenttexture, cnttextures);
+		GL_SelectTexture(TEXTURE0_SGIS, gl_mtexable, qglSelectTextureSGIS, currenttexture, cnttextures);
 		mtexenabled = false;
 	}
 }
@@ -292,8 +291,7 @@ void GL_DisableMultitexture(void)
 void GL_EnableMultitexture(void) 
 {
 	if (gl_mtexable) {
-		GL_SelectTexture(TEXTURE1_SGIS, gl_mtexable, qglSelectTextureSGIS,
-            currenttexture, cnttextures);
+		GL_SelectTexture(TEXTURE1_SGIS, gl_mtexable, qglSelectTextureSGIS, currenttexture, cnttextures);
 		glEnable(GL_TEXTURE_2D);
 		mtexenabled = true;
 	}
