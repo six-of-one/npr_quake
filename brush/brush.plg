@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: brush - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP93.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "brush_EXPORTS" /D "GLQUAKE" /D "_DLL_BUILD" /Fp"Release/brush.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"U:\private\quakedlls\erik\brush.c"
+]
+Creating command line "cl.exe @C:\TEMP\RSP93.tmp" 
+Creating temporary file "C:\TEMP\RSP94.tmp" with contents
+[
+opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/brush.pdb" /machine:I386 /out:"Release/brush.dll" /implib:"Release/brush.lib" 
+.\Release\brush.obj
+]
+Creating command line "link.exe @C:\TEMP\RSP94.tmp"
+<h3>Output Window</h3>
+Compiling...
+brush.c
+Linking...
+   Creating library Release/brush.lib and object Release/brush.exp
+Creating temporary file "C:\TEMP\RSP98.bat" with contents
+[
+@echo off
+copy .\release\brush.dll c:\temp\quake
+]
+Creating command line "C:\TEMP\RSP98.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+brush.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
