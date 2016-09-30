@@ -25,3 +25,21 @@ Cartoon shading renderer (ainpr) by Adrian Ilie:
          http://www.cs.unc.edu/~adyilie/comp238/Final/Final.htm
 This is released under the GNU General Public License, a copy of which
 is in the file COPYING.
+
+//--------------------------------------------------------------------
+
+Number Six contribution:
+
+- fix to allow compile under visual studio
+- minor tweaks to load larger maps and models
+- buffer fixes to prevent overflows
+- updates from other sources
+
+Can NOT get the linux version to load _any_ map - msg me if you can.
+Win version works just great.
+
+//--------------------------------------------------------------------
+
+\|/
+-Support free code by Six gaming on Patreon: https://www.patreon.com/six_gaming
+/|\
